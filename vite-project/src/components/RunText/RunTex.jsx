@@ -34,7 +34,6 @@ const Typewriter = () => {
             return;
         }
 
-        // Скорость печати/удаления (мс)
         const timeout = setTimeout(() => {
             setSubIndex((prev) => prev + (reverse ? -1 : 1));
         }, reverse ? 50 : 100);
