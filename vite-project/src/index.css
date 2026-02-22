@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --white: #daf1de;
+  --s-color: #8eb69b;
+  --l-color: #235347;
+  --m-color: #163832;
+  --h-color: #0b2b26;
+  --black: #051f20;
+  --muted: #6e6e6e;
+
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: var(--s-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Gozen-Regular";
+  src: url("./assets/fonts/Gozen-Regular.ttf")  ;
+}
+
+@font-face {
+  font-family: "JetBrains-Bold";
+  src: url("./assets/fonts/JetBrainsMono-Bold.ttf")  ;
+}
+
+@font-face {
+  font-family: "JetBrains-Light";
+  src: url("./assets/fonts/JetBrainsMono-Light.ttf")  ;
+}
+
+@font-face {
+  font-family: "Mathison-Bold";
+  src: url("./assets/fonts/Mathison-c-Bold.otf")  ;
+}
+
+@font-face {
+  font-family: "Mathison-Regular";
+  src: url("./assets/fonts/Mathison-c-Regular.otf")  ;
+}
+
