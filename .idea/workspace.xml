@@ -5,7 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aeb52de-a3ea-4de6-bb61-cd55f6b02e3f" name="Changes" comment="first commit on github.&#10;After developing in github.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/bun.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/bun.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/components/NavBar/NavBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/components/NavBar/NavBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite-project/src/components/RunText/RunTex.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/components/RunText/RunTex.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/RunText/RunText.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/components/RunText/RunText.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/page/MainPage/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/page/MainPage/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/page/MainPage/MainPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/page/MainPage/MainPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/page/general.module.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +27,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/vite-project/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="39fXT6abPTP40E0IsG8OC0Q2ltb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,7 +57,8 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -54,6 +73,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kt200\Documents\portfolio_for_Alex\vite-project\src\API" />
+      <recent name="C:\Users\kt200\Documents\portfolio_for_Alex\vite-project\src\components" />
       <recent name="C:\Users\kt200\Documents\portfolio_for_Alex\vite-project\src\assets\img" />
     </key>
   </component>
@@ -77,7 +98,20 @@
       <workItem from="1771696084387" duration="272000" />
       <workItem from="1771696379254" duration="86000" />
       <workItem from="1771696474678" duration="9058000" />
-      <workItem from="1771755532620" duration="1851000" />
+      <workItem from="1771755532620" duration="1954000" />
+      <workItem from="1771768033723" duration="684000" />
+      <workItem from="1771770320230" duration="42000" />
+      <workItem from="1771784443925" duration="15978000" />
+      <workItem from="1771830869008" duration="698000" />
+      <workItem from="1772038993156" duration="1376000" />
+      <workItem from="1772047616784" duration="11481000" />
+      <workItem from="1772075605489" duration="986000" />
+      <workItem from="1772083758818" duration="4967000" />
+      <workItem from="1772141382800" duration="817000" />
+      <workItem from="1772226391655" duration="203000" />
+      <workItem from="1772233574298" duration="6835000" />
+      <workItem from="1772264443148" duration="12931000" />
+      <workItem from="1772315209540" duration="2198000" />
     </task>
     <task id="LOCAL-00001" summary="first commit on github.&#10;After developing in github.">
       <option name="closed" value="true" />
@@ -87,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771759740284</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit on github.&#10;After developing in github.">
+      <option name="closed" value="true" />
+      <created>1771759886505</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771759886505</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

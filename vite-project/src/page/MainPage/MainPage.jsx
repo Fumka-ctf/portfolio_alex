@@ -1,15 +1,19 @@
 import React from 'react';
 import NavBar from "../../components/NavBar/NavBar.jsx";
-import Stiles from "../general.module.css"
 import StilesMain from "./Main.module.css"
 import Typewriter from "../../components/RunText/RunTex.jsx";
 import { FaDatabase, FaCode, FaTools } from "react-icons/fa";
 import { FaServer } from "react-icons/fa6";
+import meGif from  '../../assets/img/cat-computer.gif'
+import CardAnimated from "../../components/CardAnimeyted/CardAnimated.jsx";
 
 
 const MainPage = () => {
     return (
-        <div className={Stiles.container}>
+        <div className={StilesMain.container}>
+            <div className={StilesMain.HideNav}>
+                <NavBar />
+            </div>
                 <a href="https://t.me/jle4alika" target="_blank" className={StilesMain.LinkMeBtn}>
                     <h1 className={StilesMain.LinkMeTitle}>Связь со мной</h1>
                     <h5 className={StilesMain.LinkMeUnderText}>Тыкни на меня!!!</h5>
@@ -24,14 +28,19 @@ const MainPage = () => {
                 <h3 className={StilesMain.AboutText}>
                     Создаю высоконагруженные бэкенд-системы, REST API и микросервисную архитектуру. Специализируюсь на Django, FastAPI и современных базах данных.
                 </h3>
-                <div className="tenor-gif-embed" data-postid="4778563" data-share-method="host" data-aspect-ratio="1.34"
-                     data-width="100%"><a href="https://tenor.com/view/cat-computer-typing-keyboard-gif-4778563">Cat
-                    Computer GIF</a>from <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a></div>
-                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                    <CardAnimated
+                        image={meGif}
+                        tiltIntensity={20}
+                    />
             </div>
             <div className={StilesMain.StackTitle}>
-                <h1 className='text-end text-4xl text-(--white) mb-5'>FullStack Developer</h1>
-                <p className='text-end text-9xl text-(--white)'>JLe4alika</p>
+                <div className={StilesMain.StackText}>
+                    <h1 className='text-end text-4xl text-(--white) mb-5'>FullStack Developer</h1>
+                    <p className='text-end text-9xl text-(--white)'>JLe4alika</p>
+                </div>
+                <div className={StilesMain.StackHideTitle}>
+                    <h1>Мой технологический стек</h1>
+                </div>
                 <div className={StilesMain.StackGrid}>
                     <div className={StilesMain.StackItems}>
                         <h3 className={StilesMain.StackItemTitle}>

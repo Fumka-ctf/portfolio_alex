@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import './RunText.module.css'; // Импортируем стили ниже
+import style from './RunText.module.css'; // Импортируем стили ниже
 
 const phrases = [
     "Fullstack developer.",
     "Чистый и быстрый результат.",
-    "Vue, Angular, Node.js, TypeScript.",
+    "Vue, Angular, Node.js.",
     "Django, FastAPI, Python.",
 ];
 
@@ -50,8 +50,8 @@ const Typewriter = () => {
     }, [blink]);
 
     return (
-        <div className="h-10 text-center text-(--h-color) font-bold">
-            <div className="typewriter-wrapper" style={{ fontSize: '24px', fontFamily: 'monospace' }}>
+        <div className={style.TypeWriter}>
+            <div className={style.typewriterContainer} style={{ fontSize: '24px', fontFamily: 'monospace' }}>
                 <span>
                     {currentText.substring(0, subIndex)}
                     <span className={`cursor ${blink ? 'visible' : 'hidden'}`}>|</span>

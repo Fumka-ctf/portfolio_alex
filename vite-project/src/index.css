@@ -1,13 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --white: #daf1de;
+  --curent-color: #2a9e81;
+  --white: #daf1dd;
+  --f-color: #98b4a1;
   --s-color: #8eb69b;
   --l-color: #235347;
-  --m-color: #163832;
-  --h-color: #0b2b26;
+  --m-color: #153832;
+  --h-color: #153832;
   --black: #051f20;
   --muted: #6e6e6e;
+  --btn-color: linear-gradient(90deg, #42c2ab, #0d7350);
+  --transperent-green: rgba(105, 187, 162, 0.09);
+  --border-before: rgba(142, 182, 155, 0.5);
+  --border-after: rgba(0, 255, 78, 0.5);
+  --color-bg-card: #366545;
+  --card-tag-color: rgba(104, 186, 161, 0.2);
+  --btn-bg-hover: rgba(105, 187, 162, 0.15);
+  --grdient: linear-gradient(180deg, #42c2ab 0%, #0d7350 100%);
 
 
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;

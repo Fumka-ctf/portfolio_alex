@@ -4,11 +4,12 @@
     font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт важен */
     font-size: 24px;
     font-weight: bold;
-    color: var(--l-color);
+    color: var(--h-color);
     border-right: 3px solid #ff69b4; /* Курсор */
     white-space: nowrap; /* Запрет переноса строк */
     overflow: hidden; /* Скрываем текст за пределами ширины */
     width: 0; /* Начальная ширина */
+
 
     /*
        Анимация состоит из 3 этапов:
@@ -23,6 +24,15 @@
 
     /* Важно: чтобы анимация перезапускалась, мы будем менять класс или ключ в JS,
        но для простого цикла одного элемента можно использовать trick с animation-fill-mode */
+}
+
+.TypeWriter {
+    white-space: nowrap;
+    display: flex;
+    justify-content: start;
+    height: 80px;
+    color: var(--h-color);
+    font-weight: bold;
 }
 
 /* Анимация печати (раскрытие ширины) */
@@ -43,8 +53,11 @@
     50% { border-color: #ff69b4 }
 }
 
-/*
-   Хитрость для бесконечного цикла разных фраз на чистом CSS сложна.
-   Ниже приведен более надежный вариант на React + CSS,
-   который меняет текст программно.
-*/
+@media (max-width: 1350px) {
+    .TypeWriter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    }
+}
