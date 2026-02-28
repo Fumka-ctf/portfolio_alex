@@ -1,16 +1,49 @@
-# React + Vite
+# 👨‍💻 Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Современный портфолио-сайт FullStack разработчика с интерактивным дизайном и плавными анимациями
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.16.4-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-6.18.0-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.0.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 О проекте
 
-## React Compiler
+Современный адаптивный портфолио-сайт с уникальным дизайном, плавными анимациями и интерактивными элементами. Сайт включает страницы: Главная, Обо мне, Проекты, Цены.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Технологический стек
 
-## Expanding the ESLint configuration
+### Frontend
+- **React 18.2.0** - UI библиотека
+- **React Router DOM 6.18.0** - Маршрутизация
+- **Framer Motion 10.16.4** - Анимации
+- **React Icons 4.12.0** - Иконки
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Стили
+- **CSS Modules** - Модульные стили
+- **CSS3 Variables** - Темизация
+
+### Сборка
+- **Vite 5.0.0** - Быстрый сборщик
+
+## 🚀 Быстрый старт
+
+### Требования
+- Node.js >= 18.x
+- npm >= 9.x
+
+### Установка
+
+```bash
+# Клонирование репозитория
+git clone https://github.com/JLe4alika/portfolio.git
+cd portfolio
+
+# Установка зависимостей
+npm install
+
+# Запуск в режиме разработки
+npm run dev
+
+# Сборка для продакшена
+npm run build
